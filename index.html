@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de Operaciones</title>
+    </head>
+    <body>
+        <form action="./operaciones.php" method="post">
+            <h1>Calculadora</h1>
+            <label for="valor1">Valor 1:</label><br>
+            <input type="number" name="num1" required>
+            <br><br>
+            <label for="valor2">Valor 2:</label><br>
+            <input type="number" name="num2" required>
+            <br>
+
+            <h3>¿Qué operación desea realizar?</h3>
+            <button type="submit" name="operacion" value="suma">+</button>
+            <button type="submit" name="operacion" value="resta">-</button>
+            <button type="submit" name="operacion" value="multiplicacion">*</button>
+            <button type="submit" name="operacion" value="division">/</button>
+            <br><br>
+        </form>
+    </body>
+</html>
